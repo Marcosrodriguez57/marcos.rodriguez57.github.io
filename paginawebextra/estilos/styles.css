@@ -16,7 +16,7 @@ body {
     position: absolute;
     width: 100%;
     z-index: 100%;
-    left: 0%;
+    
 }
 
 .navbar {
@@ -52,23 +52,28 @@ body {
     color;
 
 }
+.inicio{
+background-color:  rgb(235, 229, 221);
 
+
+
+
+
+}
 nav {
     position: absolute;
     display: inline-block;
     float: left;
-    height: 100px;
+    height: 100%;
     width: 15%;
-    background-image: url(../img/fondo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 19;
-    top: 100%;
+    z-index: 10;
+    top: 10%;
+    left: 0px;
 }
 
 .tablenav {
     position: absolute;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     text-align: center;
     background-color: rgb(235, 229, 221);
@@ -89,6 +94,11 @@ p.titulotabla {
 
 
 }
+
+
+
+
+
 
 
 td {
@@ -130,6 +140,14 @@ main {
 
 
 }
+.curriculum {
+background-color:rgb(235, 229, 221) ;
+
+
+
+}
+ 
+
 
 footer {
     position: fixed;
